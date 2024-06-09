@@ -1,0 +1,7 @@
+version: '3.3'
+
+services:
+  backend:
+    image: dyxxnx/234-deploylab-backend:latest
+    ports:
+      - "8085:8080"
